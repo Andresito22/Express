@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { validateTaskData } = require("./list-edit-middleware"); 
+const { validateTaskData } = require("./list-edit-middleware");
 
 const tasks = [
   {
